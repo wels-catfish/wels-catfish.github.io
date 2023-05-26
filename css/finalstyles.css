@@ -1,0 +1,500 @@
+body {
+	background-color: background: -moz-radial-gradient(lightgreen, white);
+	background: -o-radial-gradient(lightgreen, white);
+	background: -webkit-radial-gradient(lightgreen, white);
+	background: radial-gradient(lightgreen, white);
+	margin: 1.9em;
+	float: clear;
+}
+
+#anelogo img {
+	height: 9em;
+	width: 9em;
+	max-width: 100%;
+	transition: transform 1s ease-in-out; /* Credit goes to web-tiki on Stack Overflow */
+	border-radius: 50%;
+	float: left;
+	padding-top: -1.9em;
+	padding-left: -1.3em;
+	padding-bottom: 2em;
+	padding-right: 3em;
+}
+
+img:hover {
+	transform: rotate(360deg);
+	opacity: 90%;
+}
+
+h1 {
+	font-family: "Agency FB";
+	padding: 0em;
+	font-size: 9em;
+	text-align: center;
+	text-shadow: 3.2px 3.2px darkgreen;
+}
+	#subheading {
+		font-size: 1.2em;
+		text-align: center;
+		position: relative;
+		bottom: 60px; /* credit: pwolaq on Stack Overflow */
+	}
+
+p {
+	font-family: "Arial Rounded MT";
+}
+
+nav {
+	font-family: Arial Rounded MT, "Calibri", sans-serif;
+	font-size: 1.75em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -1.5em;
+}
+
+	nav li {
+		display: inline;
+		float: left;
+		padding: 0.75em;
+		position: relative;
+		left: 150px;
+	}
+
+	ul {
+		padding: 0;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+	}
+
+	li {
+		background-color: green;
+		list-style-type: none;
+		padding: 0.4em;
+	}
+
+	li a {
+		color: white;
+		text-decoration: none;
+	}
+	
+	li a:hover {
+		color: yellow;
+		text-transform: uppercase; /* Credit: devcake on bytes.com */
+	}
+	
+	main {
+		clear: left;
+	}
+
+	
+#fuelcycle img {
+	height: 25em;
+	width: 25em;
+	padding: 1.2em;
+	max-width: 100%;
+	float: left;
+	border: none;
+}
+	
+article {
+	background-color: darkgreen;
+	float: left;
+	margin-left: 0.2%;
+	margin-top: 2.9%;
+	padding: 0.9%;
+	text-align: center;
+	width: 45%;
+	height: 750px;
+	}
+	
+	main article img {
+		border: solid #1d1d1c;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	main article p {
+		color: white;
+		margin-top: 2%;
+		padding: 1%;
+		text-align: left;
+		font-size: 1.2em;
+		text-align: justify;
+	}
+	
+	main article h2 {
+		color: white;
+		text-decoration: underline;
+		font-family: "Arial Rounded MT", "Arial", sans-serif;
+	}
+	
+	article a {
+		color: yellow;
+	}
+	
+	article a:hover {
+		color: yellow;
+		text-transform: uppercase;
+	}
+	
+	#francegraph img {
+		height: 25em;
+		width: 25em;
+		padding: 1.2em;
+		max-width: 100%;
+		float: left;
+		border: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	main article p {
+		color: white;
+		margin-top: 2%;
+		padding: 1%;
+		text-align: left;
+		font-size: 1.2em;
+		text-align: justify;
+	}
+	
+	main article h2 {
+		color: white;
+		text-decoration: underline;
+		font-family: "Arial Rounded MT", "Arial", sans-serif;
+}
+
+#info1 {
+	font-size: 0.8em;
+	margin: 2em;
+}
+
+#againstlist {
+	list-style-type: ordered;
+	color: white;
+	font-family: "Arial Rounded MT", "Arial", sans-serif;
+}
+	#againstlist a {
+		color: yellow;
+	}
+
+#costgraph img {
+	height: 30%;
+	width: 30%;
+	padding: 1.2em;
+	max-width: 100%;
+	float: left;
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 95%;
+}
+
+	#costgraph h2 {
+		font-size: 3em;
+		font-family: "Arial Rounded MT", sans-serif;
+	}
+	
+#expense1 {
+	color: white;
+	text-align: left;
+}
+	#expense1 a {
+		color: yellow;
+	}
+	
+#nuclearprotest img {
+	padding: 1.2em;
+	max-width: 100%;
+	float: right;
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 90%;
+}
+	#nuclearprotest h2 {
+		font-size: 3em;
+		font-family: "Arial Rounded MT", sans-serif;
+	}
+	
+#protest2 {
+	color: white;
+	text-align: right;
+}
+	#protest2 a {
+		color: yellow;
+	}
+	
+#qomplant img {
+	padding: 1.2em;
+	max-width: 100%;
+	float: left;
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	opacity: 95%;
+}
+	#qomplant h2 {
+		font-size: 3em;
+		font-family: "Arial Rounded MT", sans-serif;
+	}
+
+#danger3 {
+	color: white;
+	text-align: left;
+}
+
+	#danger3 a {
+		color: yellow;
+	}
+
+#tables table {
+	border: 1px solid black;
+	font-family: "Lucida Sans", sans-serif;
+	float: right;
+	color: black;
+}
+
+	#tables img {
+		height: 25px;
+		width: 50px;
+		padding: 5px;
+	}
+
+#terror {
+	color: white;
+}
+
+	#terror a {
+		color: yellow;
+	}
+	
+#subheadingtop p {
+	text-align: center;
+}
+
+	#chernobyl img {
+		height: 25%;
+		width: 25%;
+		float: left;
+		margin-right: 3em;
+	}
+	
+	#chernobyl p {
+		font-size: 1.9em;
+		font-family: "Franklin Gothic Book", serif;
+	}
+	
+	#fukushima img{
+		height: 50%;
+		width: 50%;
+		float: right;
+		margin-left: 3em;
+	}
+	
+	#fukushima p {
+		font-size: 1.9em;
+		font-family: "Franklin Gothic Book", serif;
+		text-align: right;
+	}
+	
+	#kyshtym img{
+		height: 25%;
+		width: 25%;
+		float: left;
+		margin-left: 3em;
+		margin: 1em;
+	}
+	
+	#kyshtym p {
+		font-size: 1.9em;
+		font-family: "Franklin Gothic Book", serif;
+		text-align: left;
+	}
+	
+	#windscale img{
+		height: 25%;
+		width: 25%;
+		float: right;
+		margin-left: 3em;
+		margin: 1em;
+	}
+	
+	#windscale p {
+		font-size: 1.9em;
+		font-family: "Franklin Gothic Book", serif;
+		text-align: right;
+	}
+
+#thorium img {
+	height: 50%;
+	width: 50%;
+}
+
+	#thorium p {
+		color: white;
+		margin-top: 2%;
+		padding: 1%;
+		text-align: left;
+		font-size: 1em;
+		text-align: justify;
+	}
+
+#invest img {
+	height: 50%;
+	width: 50%;
+}
+
+	#invest p {
+		color: white;
+		margin-top: 2%;
+		padding: 1%;
+		text-align: left;
+		font-size: 1em;
+		text-align: justify;
+	}
+	
+#error img {
+	height: 50%;
+	width: 50%;
+}
+
+	#error p {
+		color: white;
+		margin-top: 2%;
+		padding: 1%;
+		text-align: left;
+		font-size: 1em;
+		text-align: justify;
+	}
+
+#clean img {
+	height: 50%;
+	width: 50%;
+}
+
+	#clean p {
+		color: white;
+		margin-top: 2%;
+		padding: 1%;
+		text-align: left;
+		font-size: 1em;
+		text-align: justify;
+	}
+
+#yucca img {
+	height: 35%;
+	width: 35%;
+	margin: 5%;
+	padding: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+	#yucca p {
+		text-align: center;
+		font-size: 1em;
+	}
+
+	#yucca a {
+		transform: capitalize;
+	}
+	
+	#yucca a:hover {
+		color: gold;
+		text-transform: uppercase;
+	}
+	
+#goiania img {
+	height: 35%;
+	width: 35%;
+	margin: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+	#goiania p {
+		text-align: left;
+		font-size: 1em;
+		text-align: center;
+	}
+
+	#goiania a {
+		transform: capitalize;
+	}
+	
+	#goiania a:hover {
+		color: gold;
+		text-transform: uppercase;
+	}
+	
+#redforest img {
+	height: 35%;
+	width: 35%;
+	margin: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+	#redforest p {
+		text-align: left;
+		font-size: 1em;
+		text-align: center;
+	}
+
+	#redforest a {
+		transform: capitalize;
+	}
+	
+	#redforest a:hover {
+		color: gold;
+		text-transform: uppercase;
+	}
+	
+#tmicleanup img {
+	height: 35%;
+	width: 35%;
+	margin: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+	#tmicleanup p {
+		text-align: left;
+		font-size: 1em;
+		text-align: center;
+	}
+
+	#tmicleanup a {
+		transform: capitalize;
+	}
+	
+	#tmicleanup a:hover {
+		color: gold;
+		text-transform: uppercase;
+	}
+
+#fix a:hover {
+		transform: capitalize;
+		color: gold;
+		text-transform: uppercase;
+		text-decoration: none;
+	}
+	
+	#fixtop {
+		margin: 3em;
+	}
+
+	#fixtop p {
+		font-size: 2em;
+	}
+
+	#fixmiddle1 {
+		margin: 4em;
+	}
+
+	#fixmiddle1 p {
+		font-size: 1.3em;
+	}
